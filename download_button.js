@@ -4,7 +4,6 @@ var player = videojs(document.querySelector('.video-js'), {
               beforeElement: 'playbackRateMenuButton',
               textControl: 'Download video',
               name: 'downloadButton',
-              downloadURL: '//vjs.zencdn.net/v/oceans.mp4' //optional if you need a different download url than the source
             }
           }
         } , function() {
